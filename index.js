@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         output.textContent = hashValue;
 
         // Copy to clipboard
-        copyToClipboard(hashValue);
+        copyToClipboard(text);
     });
 
     function copyToClipboard(text) {
