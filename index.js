@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         output.textContent = hashValue;
 
         // Copy to clipboard
+        text=hashValue.substring(0,4)+text;
         copyToClipboard(text);
     });
 
